@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Rambla|Staatliches&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-border: #808080;
+  --font-staat: "Staatliches", cursive;
+  --font-os: "Oswald", sans-serif;
+  --font-ram: "Rambla", sans-serif;
+}
+
+.font-staat {
+  font: normal 800 18px var(--font-staat);
+}
+.font-os {
+  font: normal 400 18px var(--font-os);
+}
+.font-ram {
+  font: normal 400 18px var(--font-ram);
+}
+
+.bg-color-black {
+  background-color: var(--color-black);
+}
+
+.font-size-40 {
+  font-size: 40px;
+}
+.font-size-34 {
+  font-size: 34px;
+}
+.font-size-27 {
+  font-size: 27px;
+}
+.font-size-20 {
+  font-size: 20px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+
+#header nav {
+  height: 100vh;
+}
+
+#header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  transition: left 0.5s ease;
+}
+
+#header .navbar-brand {
+  letter-spacing: 5px;
+  color: wheat;
+}
+
+#header .nav-link {
+  border-bottom: 1px solid var(--color-border);
+  text-transform: uppercase;
+  margin: 0.7rem 1rem;
+}
+
+#header .nav-link:hover {
+  color: var(--color-white) !important;
+}
+
+#header .tgl-btn {
+  background: none;
+  color: var(--color-black);
+  position: fixed;
+  top: 25px;
+  right: 20px;
+  border: 1px solid var(--color-border);
+}
+
+.toggle-left {
+  left: 0px !important;
+}
+
+/* site-main */
+
+.site-banner .banner-area {
+  background: url(./assets/images/main_back.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.site-banner .banner-area .author {
+  margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.site-banner .author-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+  background: url(./assets/images/profile_1.jpg) no-repeat;
+  background-size: 150%;
+  background-position: 65% 50%;
+}
+
+.skill .bars .;
